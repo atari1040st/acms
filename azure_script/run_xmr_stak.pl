@@ -357,7 +357,7 @@ sub GetHashRate{
 }
 
 chdir "../..";
-chdir "xmrig/build";
+chdir "xmrig";
 
 my $loopcounter=$repetitions;
 
