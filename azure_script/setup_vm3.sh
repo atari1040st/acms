@@ -10,12 +10,12 @@ then
       echo "Running with latest version from git..."
 else
       echo "checkout tag $gittag"
-      cd azure-cloud-mining-script
+      cd acms
       git checkout $gittag
       cd ..
 fi
 
-cd azure-cloud-mining-script
+cd acms
 azure_script/compile_and_config.sh
 
 
